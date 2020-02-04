@@ -3,6 +3,7 @@ syntax enable
 
 set mouse=nv
 set modeline
+set modelines=1
 set report=0
 set errorbells
 set visualbell
