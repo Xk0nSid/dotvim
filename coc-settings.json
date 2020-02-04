@@ -9,9 +9,14 @@
                     "directory": "/tmp/ccls"
                 }
             }
+        },
+        "golang": {
+            "command": "gopls",
+            "rootPatterns": ["go.mod"],
+            "filetypes": ["go"]
         }
     },
-	"go.goplsOptions": {
-		"completeUnimported": true
-	}
+    "go.goplsOptions": {
+        "completeUnimported": true
+    }
 }

@@ -41,7 +41,7 @@ set listchars=tab:\▏\ ,extends:⟫,precedes:⟪,nbsp:␣,trail:·
 
 " Tabs and Indents
 set textwidth=80    " Text width maximum chars before wrapping
-set noexpandtab     " Don't expand tabs to spaces.
+set expandtab       " Expand tabs to spaces.
 set tabstop=4       " The number of spaces a tab is
 set softtabstop=4   " While performing editing operations
 set shiftwidth=4    " Number of spaces to use in auto(indent)
